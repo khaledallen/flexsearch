@@ -654,7 +654,7 @@ var index = new FlexSearch({
     tokenize: "forward",
     threshold: 0,
     async: false,
-    worker: false,
+    workers: false,
     cache: false
 });
 ```
@@ -1739,7 +1739,7 @@ var index = new FlexSearch({
     encode: "icase",
     tokenize: "full",
     async: true,
-    worker: 4
+    workers: 4
 });
 ```
 
